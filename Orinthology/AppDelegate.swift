@@ -22,12 +22,10 @@ var navigation : UINavigationController!
         
         self.window = UIWindow.init(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
         
-//        [GMSServices provideAPIKey:@"AIzaSyAVzMIHEOifAo6irM9axtppru87FFAutRA"];
-//
-//          [GMSPlacesClient provideAPIKey:@"AIzaSyAVzMIHEOifAo6irM9axtppru87FFAutRA"];
+
         
-        GMSServices.provideAPIKey("AIzaSyAVzMIHEOifAo6irM9axtppru87FFAutRA")
-        GMSPlacesClient.provideAPIKey("AIzaSyAVzMIHEOifAo6irM9axtppru87FFAutRA")
+        GMSServices.provideAPIKey("")
+        GMSPlacesClient.provideAPIKey("")
         
 //        let storyboard = UIStoryboard(name: "Main", bundle: nil)
 //        let vc = storyboard.instantiateViewController(withIdentifier: "SignInVC")
